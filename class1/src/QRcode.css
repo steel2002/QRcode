@@ -3,6 +3,7 @@
 *{
     box-sizing: border-box;
   font-family: 'Inter', sans-serif;
+  background-color: #a32248;
 }
 .app-container{
     width: 100%;
