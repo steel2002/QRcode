@@ -1,0 +1,96 @@
+#root 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    margin: 0;
+}
+h3{
+    margin: 10px 0;
+}
+h6{
+    margin: 5px 0;
+    text-transform: uppercase;
+}
+p{
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.container {
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    width: 350px;
+    max-width: 100%;
+    background-color: rgb(10, 116, 111);
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    position: relative;
+
+}
+.pro {
+    color: blue;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 3px 7px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.online {
+    background-color: greenyellow;
+}
+.offline {
+    background-color: #f44336;
+}
+.img {
+    border: 3px solid white;
+    border-radius: 60%;
+    padding: 3px;
+    
+    
+}
+.buttons 
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+button.follow{
+    background-color: #2a880e;
+    color: white;
+    border: 1px solid #0db023;
+    border-radius: 3px;
+    font-weight: 500;
+    padding: 10px 25px;
+}
+button.follow.outline {
+    background-color: transparent;
+}
+.skills {
+    background-color: rgb(10, 116, 111);
+    text-align:left;
+    padding: 15px;
+    margin-top: 15px;
+}
+.skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.skills ul li {
+    border: 1px solid #0d0823;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 7px;
+    margin: 0 7px 7px 0;
+    font-size: 12px;
+}
